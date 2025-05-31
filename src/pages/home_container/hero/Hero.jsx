@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Bus2 from "../../../assets/bus5.png"
 import { motion } from 'framer-motion'
 
@@ -39,7 +40,7 @@ const Hero = () => {
           </motion.dev>
 
           <motion.button className="w-fit bg-violet-700 hover:bg-violet-800 text-neutral-50 font-medium py-3 px-6 rounded-md ease-in-out duration-300">
-            Reserve Seat Now
+           <Link to ="/bus"> Reserve Seat Now </Link>
           </motion.button>
         </motion.dev>
 

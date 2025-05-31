@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { FaArrowRightLong } from 'react-icons/fa6'
 
 const Checkout = () => {
@@ -111,10 +112,11 @@ const Checkout = () => {
                        
                     </div>
                 </div>
-
+<Link to = "Invoice">
                 <button className="w-full px-8 h-12 bg-violet-600 text-neutral-50 text-base font--normal rounded-md flex items-center justify-center gap-x-2">
                     Processed to Pay <FaArrowRightLong/>
                 </button>
+                </Link>
                 </div>
             </div>
         </div>

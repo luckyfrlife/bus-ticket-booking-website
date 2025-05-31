@@ -9,6 +9,7 @@ import Detail2 from './pages/bus/Detail2';
 import Detail3 from './pages/bus/Detail3';
 import Checkout from './pages/checkout/Checkout';
 import LoginPage from './pages/auth/Login';
+import Invoice from './pages/invoice/Invoice';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
             <Route path="/bus/bus-details2" element={<Detail2/>}/>
             <Route path="/bus/bus-details3" element={<Detail3/>}/>
             <Route path="/bus/bus-details/checkout" element={<Checkout/>}/>
+            <Route path="/bus/bus-details/checkout/invoice" element={<Invoice/>}/>
           </Routes>
 
           {/* Footer */}
